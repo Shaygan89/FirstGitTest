@@ -2,7 +2,7 @@
 #include <LiquidCrystal_PCF8574.h>
 
 // Current firmware version
-String currentVersion = "1.0.0";
+String currentVersion = "2.0.0";
 
 // ---------------- LCD ----------------
 LiquidCrystal_PCF8574 lcd(0x27); // I2C address
