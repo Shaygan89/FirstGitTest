@@ -9,7 +9,7 @@ LiquidCrystal_PCF8574 lcd(0x27); // I2C address
 
 void setup() {
   // put your setup code here, to run once:
-    // LCD init
+    // LCD initgit 
   lcd.begin(20, 4);
   lcd.setBacklight(255);
   lcd.setCursor(0,0);
@@ -23,5 +23,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  lcd.setCursor(0,0);
+  lcd.clear();
+  lcd.print("This is soo cool");
 
 }
